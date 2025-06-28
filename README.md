@@ -22,11 +22,11 @@ This project explores **flight delay and cancellation patterns** using the **200
 - Verified with 'SELECT *' and counted total rows which resulted in 2,389,217.
 
 2. **Cleaning ('airline_2008_cleaned')**:
-- Replaced 'NA' and blank strings with 'NULL'
-- Casted types for proper numerical processing
+- Replaced 'NA' and blank strings with 'NULL'.
+- Casted types for proper numerical processing.
 
 3. **Deduplication ('airline_2008_deduplicated')**:
-- Removed 4 duplicated rows using 'SELECT DISTINCT *'
+- Removed 4 duplicated rows using 'SELECT DISTINCT *'.
 - Final cleaned dataset rows resulted in **2,389,213** rows.
 
 4. **Null Check**:
@@ -36,5 +36,41 @@ This project explores **flight delay and cancellation patterns** using the **200
 - Verified consistency: A (Carrier), B (Weather), C (NAS), D (Security)
 
 # Analysis Overview
-### ** Questio 1: Delay Patterns**
+### ** Question 1: Delay Patterns**
+#### 1. Best Time of Day for Punctual flights
+- **Finding**: Morning Flights (5a.m. to 11a.m.) have the lowest average delays.
+- **Avg Delay**: Dep is approximately 5.88 mintes, Arr is approximately 5.37 minutes
+- **Morning is the best time to fly for punctuality.**
+
+#### 2. Best Days to Travel
+- **Finding**: Wednesday and Saturday show the best on-time performance.
+- **Worst Day**: Friday has the highest delays due to weekend congestion.
+
+#### 3. Best Months (within Jan-Apr subset)
+- **Important Notes**: The dataset only contains flight records **January to April**, so **seasonal comparison such as summer vs winter** are not possible. All findings are limited to these four months.
+- **Finding**: **April** has the lowest delays.
+- **Worst Month**: February, likely due to winter weather.
+- Spring travel is more reliable than winter (within this data slice).
+
+### Visuals:
+- Bar plots comparing **AvgDepDelay** and **AvgArrDelay** across time, days and months.
+
+### **Question 2: Delay Factors**
+#### Top 5 Contributors (Total Delay Minutes):
+| Cause               | Minutes     | % Share |
+|--------------------|-------------|---------|
+| Late Aircraft       | 12.26M      | 37.5%   |
+| NAS Delay           | 9.45M       | 28.9%   |
+| Carrier Delay       | 9.21M       | 28.2%   |
+| Weather Delay       | 1.72M       | 5.3%    |
+| Security Delay      | 0.05M       | 0.14%   |
+**Late aircraft** is the most dominant reason for delays, followed by NAS, and carrier-related issues.
+
+#### Correlation Matrix:
+- **High correlation**:
+  - 'DepDelay' ↔ 'ArrDelay'
+  - 'CarrierDelay', 'LateAircraftDelay' → strongly rleated to both.
+- **Negligible correlation**: 'SecurityDelay'
+
+### **Cancellation Patterns (Bonus Analysis)**
 
