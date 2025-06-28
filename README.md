@@ -11,6 +11,9 @@ This project explores **flight delay and cancellation patterns** using the **200
 1. Apache Hive - Big Data querying and transformation
 2. Python - Data wrangling, analysis and visualization
 
+## Related links
+For question 2, final part, please download the dataset from this link 'https://drive.google.com/file/d/1cx4tFCsLWfqWAMcgVsnXLPDDs-lZWxJ4/view?usp=share_link' to be able to run the final 2 codes of the analysis.
+
 ## Dataset Overview
 **Records**: 2,389,217
 **Variables**: 29
