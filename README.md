@@ -36,7 +36,7 @@ This project explores **flight delay and cancellation patterns** using the **200
 - Verified consistency: A (Carrier), B (Weather), C (NAS), D (Security)
 
 # Analysis Overview
-### ** Question 1: Delay Patterns**
+### **Question 1: Delay Patterns**
 #### 1. Best Time of Day for Punctual flights
 - **Finding**: Morning Flights (5a.m. to 11a.m.) have the lowest average delays.
 - **Avg Delay**: Dep is approximately 5.88 mintes, Arr is approximately 5.37 minutes
