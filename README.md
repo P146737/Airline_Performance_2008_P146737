@@ -4,7 +4,6 @@
 ### Name: A Pavethra A/P Avadiar
 ### Course: STQD6324 Data Management (Semester 2, 2024/2025)
 
-
 ## Project Objective
 This project explores **flight delay and cancellation patterns** using the **2008 Airline On-Time Performance Dataset**. It applies **Apache Hive** for data preprocessing and analysis, and **Python (Pandas, Matplotlib, Seaborn)** for visualizations. The goal is to uncover patterns in delays and identify critical contributing factors using structured big data processing.
 
