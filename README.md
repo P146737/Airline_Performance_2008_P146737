@@ -86,7 +86,6 @@ This project explores **flight delay and cancellation patterns** using the **200
 - April had the **fewest cancellations**, confirming better reliability.
 
 ### **Question 4: Problematic Routes**
-
 - ORD to LGA and vice versa is the most problematic route with the highest delays and cancellations.
 - Busy airport pairs like LAX-SFO also show high delay volumes.
 - ORD (Chicago O'Hare) confirms operational inefficiencies, whereas YV (Mesa Airlines) is frequently among the most delayed carriers.
@@ -94,8 +93,12 @@ This project explores **flight delay and cancellation patterns** using the **200
 - Flight 9E-5897 had both high delays and 4 cancellations.
 
 #### Summary and Recommendation:
+- ORD to LGA, LAX to SFO and ATL to LGA are high-risk routes for delays and cancellations.
+- Carriers like YV, MQ (American Eagle) and 9E (Pinnacle Airlines) had significantly higher average delays.
+- It is recommended to consider rescheduling or avoiding these specific flight numbers or routes, where possible. Airlines should review performance and resourcing on these critical routes.
+
 
 ## Conclusion
-This project demonstrates the use of big data tools (Hive+Python) to analyze real world airline performance data. Key patterns in flight delays and cancellations were identified, with actionable recommendations provided for optimizing airline operations and passengers' travel planning.
+This project demonstrates the use of big data tools (Hive+Python) to analyze real-world airline performance data. Key patterns in flight delays and cancellations were identified, with actionable recommendations provided for optimizing airline operations and passengers' travel planning.
   
 
