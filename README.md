@@ -87,9 +87,12 @@ This project explores **flight delay and cancellation patterns** using the **200
 
 ### **Question 4: Problematic Routes**
 
+- ORD to LGA and vice versa is the most porblematic route with the highest delays and cancellations.
+- Busy airport pairs like LAX-SFO also show high delay volumes.
+- ORD (Chicago O'Hare) confirms operational inefficiencies, whereas YV (Mesa Airlines) is frequently among the most delayed carriers.
+- Flighs YV-7487, MQ-3408 and 9E-5897 had extreme average delays, though low frequency could skew the results.
+- Flight 9E-5897 had both high delays and most cancellations.
 
-- Total cancelled flights: **64,442** which is approximately 2.7% of all flights.
-- Main causes: **Carrier-related** and **weather-related** issues.
-- April had the **fewest cancellations**, confirming better reliability.
+
   
 
