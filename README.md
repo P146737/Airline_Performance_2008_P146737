@@ -1,5 +1,5 @@
 # STQD6324 Data Management Assignment 2
-## Airline On-Time Performance Analaysis on 2008 Dataset
+## Airline On-Time Performance Analysis on 2008 Dataset
 
 ### Name: A Pavethra A/P Avadiar
 ### Course: STQD6324 Data Management (Semester 2, 2024/2025)
@@ -39,7 +39,7 @@ This project explores **flight delay and cancellation patterns** using the **200
 ### **Question 1: Delay Patterns**
 #### 1. Best Time of Day for Punctual flights
 - **Finding**: Morning Flights (5a.m. to 11a.m.) have the lowest average delays.
-- **Avg Delay**: Dep is approximately 5.88 mintes, Arr is approximately 5.37 minutes
+- **Avg Delay**: Dep is approximately 5.88 minutes, Arr is approximately 5.37 minutes
 - **Morning is the best time to fly for punctuality.**
 
 #### 2. Best Days to Travel
@@ -69,7 +69,7 @@ This project explores **flight delay and cancellation patterns** using the **200
 #### Correlation Matrix:
 - **High correlation**:
   - 'DepDelay' ↔ 'ArrDelay'
-  - 'CarrierDelay', 'LateAircraftDelay' → strongly rleated to both.
+  - 'CarrierDelay', 'LateAircraftDelay' → strongly related to both.
 - **Negligible correlation**: 'SecurityDelay'
 
 ### **Question 3: Cancellation Trends**
@@ -87,12 +87,15 @@ This project explores **flight delay and cancellation patterns** using the **200
 
 ### **Question 4: Problematic Routes**
 
-- ORD to LGA and vice versa is the most porblematic route with the highest delays and cancellations.
+- ORD to LGA and vice versa is the most problematic route with the highest delays and cancellations.
 - Busy airport pairs like LAX-SFO also show high delay volumes.
 - ORD (Chicago O'Hare) confirms operational inefficiencies, whereas YV (Mesa Airlines) is frequently among the most delayed carriers.
-- Flighs YV-7487, MQ-3408 and 9E-5897 had extreme average delays, though low frequency could skew the results.
-- Flight 9E-5897 had both high delays and most cancellations.
+- Flights YV-7487, MQ-3408 and 9E-5897 had extreme average delays, though low frequency could skew the results.
+- Flight 9E-5897 had both high delays and 4 cancellations.
 
+#### Summary and Recommendation:
 
+## Conclusion
+This project demonstrates the use of big data tools (Hive+Python) to analyze real world airline performance data. Key patterns in flight delays and cancellations were identified, with actionable recommendations provided for optimizing airline operations and passengers' travel planning.
   
 
