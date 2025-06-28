@@ -87,13 +87,7 @@ This project explores **flight delay and cancellation patterns** using the **200
 
 ### **Question 4: Problematic Routes**
 
-| Cancelled | Code | Description                      | Count    |
-|-----------|------|----------------------------------|----------|
-| 1         | A    | Carrier                          | 26,075   |
-| 1         | B    | Weather                          | 25,744   |
-| 1         | C    | NAS                              | 12,617   |
-| 1         | D    | Security                         | 6        |
-| 0         | —    | Not Cancelled                    | 2,324,771 |
+
 - Total cancelled flights: **64,442** which is approximately 2.7% of all flights.
 - Main causes: **Carrier-related** and **weather-related** issues.
 - April had the **fewest cancellations**, confirming better reliability.
